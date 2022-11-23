@@ -1,0 +1,72 @@
+{
+    "title": "无聊时随便弄得",
+    "description": "无聊时随便弄得",
+    "author": "Breeze",
+    "language": "xia-yu",
+    "root": ".",
+    "plugins": [
+        "github-buttons@2.1.0",
+        "edit-link",
+        "splitter",
+        "tbfed-pagefooter",
+        "chapter-fold",
+        "back-to-top-button",
+        "code",
+        "pageview-count",
+        "popup",
+        "search-plus",
+        "-lunr",
+        "-search",
+        "splitter",
+        "-sharing",
+        "sharing-plus"
+    ],
+    "styles": {
+        "website": "styles/website.css"
+    },
+    "pluginsConfig": {
+        "github-buttons": {
+            "repo": "ITmxs/gitbook-Information-System-Engineer",
+            "types": [
+                "star"
+            ],
+            "size": "small"
+        },
+        "edit-link": {
+            "base": "https://github.com/ITmxs/gitbook-Information-System-Engineer/edit/master",
+            "label": "Edit This Page"
+        },
+        "tbfed-pagefooter": {
+            "copyright": "© luckly FED Team",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "pluginsConfig": {
+            "chapter-fold":{}
+        },
+        "sharing": {
+            "douban": false,
+            "facebook": false,
+            "google": false,
+            "pocket": false,
+            "qq": false,
+            "qzone": false,
+            "twitter": false,
+            "weibo": false,
+            "all": [
+                "qq",
+                "qzone",
+                "viber",
+                "whatsapp",
+                "douban",
+                "facebook",
+                "google",
+                "instapaper",
+                "linkedin",
+                "messenger",
+                "twitter",
+                "weibo"
+            ]
+        }
+    }
+}
